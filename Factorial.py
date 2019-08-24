@@ -13,7 +13,9 @@ def factorial(n):
 	else:
 		c=1
 		sum=n
+		no=n
 		while(c<n):
-			sum*=(n-1)
+			sum*=(no-1)
+			no-=1
 			c+=1
 		return sum
